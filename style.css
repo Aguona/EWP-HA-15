@@ -1,0 +1,14 @@
+span {
+	/*font-weight: bold;*/
+	color: blue;
+	font-weight: bold;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+th{
+	text-align: left;
+}

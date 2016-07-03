@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>EWP HA 15</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
 <!-- TODO: Erstellen Sie hier die nötigen Inhalte -->
+	<div>
+		<h2>Git-Workflow</h2>
+		<p>
+		Mit dem Befehl <span id ="clone">git clone</span> wird aus dem git repository die Projektdatei(n) auf der lokalen Festplate kopiert, damit man die Daten lokal - auf eigene Festplatte - bearbeiten kann. Wenn man die Datei(n) bearbeitet/ verändert hat, dann kann man die veränderte Datei mit dem Befehl <span id="add">git add</span> für die Zwischenspeicherung vermerken. Mit dem weiteren Befehl <span id="commit">git commit</span> wird ein Kommentar bezüglich der Bearbeitung von Datei(n)hinterlegt sowie die veränderte Datei(n) lokal zwischengespeichert. Mit dem Befehl <span id="push">git push</span> werden die veränderte Datei(n) auf das git repository hochgeladen. Desweiteren kann man mit dem Befehl <span id="pull">git pull </span>die lokalen Projektdateien auf den Stand der Dateien im git repository aktualisieren.
+	</p>
+
+		<div id="clone-content">Kopiere den Link "https://github.com/Aguona/EWP-HA-16.git"</div>
+
+		<div id="add-content">Gib im Terminal ein: git add Projekt.html</div>
+
+		<div id="commit-content">Gib im Terminal ein: git commit -m "Neue Tabelle (Nr. 13) hinzugefügt"</div>
+
+		<div id="push-content">Gib im Terminal ein: git push</div>
+
+		<div id="pull-content">Gib im Terminal ein: git pull</div>
+
+	</div>
+
+		<div>
+			
+		<table id="tab-git">
+			<thead>
+				<tr>
+					<th>Befehl</th>
+					<th>Bedeutung</th>
+				</tr>
+			</thead>
+		</table>
+
+
+
+	</div>
+
+	<a href="https://github.com/Aguona/EWP-HA-15.git" target="blank">
+		<img src="github-logo.jpeg" alt="github">
+
+
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+	<script src="script.js"></script>
 
 </body>
 </html>

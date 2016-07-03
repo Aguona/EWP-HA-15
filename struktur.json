@@ -1,0 +1,30 @@
+
+{
+	"data" : [
+
+		[
+			"git clone",
+			"Klont die Datei aus dem repository."
+		],
+
+		[
+			"git add",
+			"Vermerkt die Datei zur Zwischenspeicherung."
+		],
+
+		[
+			"git commit",
+			"Schreibt einen Kommentar und fürht eine lokale Zwischenspeicherung aus."
+		],
+
+		[
+			"git push",
+			"Lädt die vorher zwischengespeicherte Datei auf das repository hoch."
+		],
+
+		[
+			"git pull",
+			"Lokale Datei wird an die Veränderungen aus dem repository angepasst."
+		]
+	]
+}
